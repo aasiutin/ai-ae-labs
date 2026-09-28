@@ -3,6 +3,10 @@ docs/superpowers/
 demo/1_ai-gateway/.env
 demo/1_ai-gateway/mock-llm/mock-llm
 
+.env
+.env.*
+!.env.example
+
 # `go build ./<dir>/` writes the binary into the CURRENT directory, named after
 # the target dir. Building any lab from the repo root therefore drops a
 # 80+ MB Mach-O/ELF executable at the root, named "labs" — which is a directory
